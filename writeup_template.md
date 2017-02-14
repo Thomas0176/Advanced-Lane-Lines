@@ -1,9 +1,11 @@
 ---
 
-I RECORDED THIS EXPLANATION VIDEO: 
+
+##################################I RECORDED THIS EXPLANATION VIDEO: 
 https://photos.google.com/share/AF1QipOFYi7O_Rn9fRPNrudbn-A5M-hiyh2fwKv_TxFlLqtIf8RDmBv-wVny5rX1ko2aAA?key=MjhBUXg5QWJuSHJxcTh5VzNYdldlbUo1U19VRUR3
 
 **Advanced Lane Finding Project**
+
 
 The goals / steps of this project are the following:
 
@@ -24,32 +26,9 @@ The goals / steps of this project are the following:
 [image3]: ./examples/binary_combo_example.jpg "Binary Example"
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-
-
 [video1]: ./project_video.mp4 "Video"
-[video1]: ./project_video_annotated.mp4 "# Define a class to receive the characteristics of each line detection
-class Line():
-    def __init__(self):
-        # was the line detected in the last iteration?
-        self.detected = False  
-        # x values of the last n fits of the line
-        self.recent_xfitted = [] 
-        #average x values of the fitted line over the last n iterations
-        self.bestx = None     
-        #polynomial coefficients averaged over the last n iterations
-        self.best_fit = None  
-        #polynomial coefficients for the most recent fit
-        self.current_fit = [np.array([False])]  
-        #radius of curvature of the line in some units
-        self.radius_of_curvature = None 
-        #distance in meters of vehicle center from the line
-        self.line_base_pos = None 
-        #difference in fit coefficients between last and new fits
-        self.diffs = np.array([0,0,0], dtype='float') 
-        #x values for detected line pixels
-        self.allx = None  
-        #y values for detected line pixels
-        self.ally = None Video"
+[video2]: ./project_video_annotated.mp4 "Final output Video"
+
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
