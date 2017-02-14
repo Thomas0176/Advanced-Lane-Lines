@@ -124,7 +124,7 @@ I did this with:     left_curverad, right_curverad, offset_from_lane_center = le
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+Here is the example of my result on 3 test images:
 
 [image6]: ./output_images/1.jpg "Right image"
 [image6]: ./output_images/2.jpg "Right image"
